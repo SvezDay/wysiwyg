@@ -27,7 +27,7 @@ export class HomePage implements AfterViewInit{
       // this.display(event);
     });
     this.renderer.listen(this.ubContent.nativeElement, 'keyup', (event: any) => {
-      console.log(event);
+      console.log(event.target);
       const regex = /\s\.[a-z]{1,}/gmi;
       const elem = event.path[0];
       const innerHTML = elem.innerHTML;
