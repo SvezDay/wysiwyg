@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-title contenteditable="true" [(ngModel)]="name" (ngModelChange)="onChange($event)"></ion-card-title>
+    <ion-card-content>
+      <div #ubContent contenteditable="true"></div>
+      <!--<ion-item-group #ubContent contenteditable="true" (keydown)="keydown($event)">
+        <ion-item>Hello world</ion-item>
+      </ion-item-group>-->
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
