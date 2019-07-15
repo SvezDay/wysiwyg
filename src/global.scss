@@ -10,13 +10,29 @@
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
 
-.ub-item {
+.ubs-item {
   font-style: italic;
 }
-.ub-undefined {
+.ubs-sub {
+  margin-left: 1em;
+}
+.ub-title {
+  margin-bottom: 1em;
   font-weight: bold;
+  color: darkgray;
+  font-size: large;
+}
+.ub-undefined {
+  margin-bottom: 1em;
+  color: darkgrey;
 }
 .ub-principe {
+  margin-bottom: 1em;
   font-weight: bold;
-  color: blue;
+  color: black;
 }
+ub-rules {
+  margin-bottom: 1em;
+  display:list-item;
+}
+
